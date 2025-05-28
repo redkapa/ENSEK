@@ -60,8 +60,14 @@ function UploadMeterReadings() {
   );
 }
 
+type Account = {
+  accountId: number;
+  firstName: string;
+  lastName: string;
+};
+
 function Accounts() {
-  const [accounts, setAccounts] = useState<[]>([]);
+  const [accounts, setAccounts] = useState<Account[]>([]);
 
   useEffect(() => {
     fetch("http://localhost:5222/accounts", {
@@ -103,8 +109,15 @@ function Accounts() {
   );
 }
 
+type MeterReading = {
+  id: number;
+  accountId: number;
+  meterReadingDateTime: string;
+  meterReadValue: number;
+};
+
 function Meters() {
-  const [readings, setReadings] = useState<[]>([]);
+  const [readings, setReadings] = useState<MeterReading[]>([]);
 
   useEffect(() => {
     fetch("http://localhost:5222/meter-reading-uploads", {

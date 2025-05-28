@@ -43,3 +43,4 @@
 /Users/kaiparker/projects/ENSEK/server/web_api/obj/Debug/net9.0/web_api.pdb
 /Users/kaiparker/projects/ENSEK/server/web_api/obj/Debug/net9.0/web_api.genruntimeconfig.cache
 /Users/kaiparker/projects/ENSEK/server/web_api/obj/Debug/net9.0/ref/web_api.dll
+/Users/kaiparker/projects/ENSEK/server/web_api/obj/Debug/net9.0/web_api.sourcelink.json
