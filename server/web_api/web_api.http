@@ -1,0 +1,10 @@
+@web_api_HostAddress = http://localhost:5222
+
+GET {{web_api_HostAddress}}/accounts
+Accept: application/json
+
+###
+
+POST {{web_api_HostAddress}}/meter-reading-uploads
+Content-Type: multipart/form-data
+
